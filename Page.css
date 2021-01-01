@@ -5,9 +5,9 @@ body {
 
 header {
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20;
 	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 header h1 {
@@ -15,6 +15,15 @@ header h1 {
 }
 
 header img {
-	border-radius: 250px;
+	border-radius: 100%;
 	width: 300px;
+}
+
+main{
+	max-height: 800px;
+
+}
+
+main img{
+	max-height: 100%;
 }
